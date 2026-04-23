@@ -13,7 +13,7 @@ app.use("/api", routes);
 var mongoose = require("mongoose");
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb+srv://Miguel254140:254140@bancodados.uovh3ct.mongodb.net/?appName=BancoDados",
+    "mongodb+srv://Miguel254140:254140@cluster0.1gaae9p.mongodb.net/?appName=Cluster0",
 );
 mongoose.Promise = global.Promise;
 
